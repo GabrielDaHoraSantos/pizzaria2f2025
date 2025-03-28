@@ -2,11 +2,12 @@ import { useState } from "react";
 
 function App() {
 
-    const [nome, setNome] = useState("Memphis")
+  const [nome, setNome] = useState("Memphis")
 
+const Formulario = () => {
   return (
     <div>
-      <h3>Pizzaria 2F</h3>
+      
       <input 
       className="nome"
       name="nome"
@@ -14,10 +15,18 @@ function App() {
       placeholder="Digite um nome..."
       type="text" />
       <button
-        className="botaoo"
+        className="botao"
       onClick={()=>{alert(nome)}}>
         Clique Here
       </button>
+
+    </div>
+  )
+}
+  return (
+    <div>
+      <h3>Pizzaria 2F</h3>
+      <Formulario />
     </div>
 
   )
