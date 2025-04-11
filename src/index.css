@@ -29,12 +29,14 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: rgba(0, 0, 255, 0.582);
-  color: rgb(255, 123, 0);
+  color: rgb(204, 99, 0);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-style: italic;
+  color: rgb(214, 129, 1);
 }
 
 button {

@@ -28,6 +28,7 @@ const Formulario = (props) => {
     </div>
   )
 }
+
   return (
     <div>
       <h3>Pizzaria 2F</h3>
@@ -36,8 +37,9 @@ const Formulario = (props) => {
       <Formulario sombra="Digite se email.." />
       <Formulario sombra="(99)99999-9999" />
 
+      <Formulario sombra="Coloque seu Cpf"/>
       <Formulario />
-      <Formulario />
+      
       <Formulario />
 
     </div>
